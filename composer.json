@@ -1,0 +1,35 @@
+{
+    "name": "success/yii2-app-api",
+    "description": "Yii2 Api Application Template",
+    "keywords": ["yii2", "framework", "api", "project template"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Success Go",
+            "email": "success.go@gaodacheng.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "replace": {
+        "bower-asset/inputmask": "*",
+        "bower-asset/jquery": "*",
+        "bower-asset/punycode": "*",
+        "bower-asset/yii2-pjax": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "api",
+            "Common\\": "common",
+            "Console\\": "console"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
