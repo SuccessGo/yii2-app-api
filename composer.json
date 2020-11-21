@@ -27,7 +27,7 @@
         "codeception/module-phpbrowser": "^1.0.0",
         "codeception/module-rest": "^1.2"
     },
-    "replace": {
+    "provide": {
         "bower-asset/inputmask": "*",
         "bower-asset/jquery": "*",
         "bower-asset/punycode": "*",
