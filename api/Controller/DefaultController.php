@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function actionIndex()
     {
-        return "hello world";
+        return ['author' => 'Success Go'];
     }
 }
