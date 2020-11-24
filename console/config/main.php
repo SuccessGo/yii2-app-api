@@ -13,6 +13,10 @@ return [
     'aliases' => [
     ],
     'controllerMap' => [
+        'migrate' => [
+            'class' => 'yii\console\controllers\MigrateController',
+            'migrationNamespaces' => 'Console\Migration',
+        ],
     ],
     'components' => [
         'log' => [
