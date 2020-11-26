@@ -35,10 +35,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Api\\": "api",
-            "Common\\": "common",
-            "Console\\": "console",
-            "Tests\\Api\\": "tests/api"
+            "api\\": "api",
+            "common\\": "common",
+            "console\\": "console",
+            "tests\\api\\": "tests/api"
         }
     },
     "config": {

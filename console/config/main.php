@@ -15,7 +15,9 @@ return [
     'controllerMap' => [
         'migrate' => [
             'class' => 'yii\console\controllers\MigrateController',
-            'migrationNamespaces' => 'Console\Migration',
+            'migrationPath' => [
+                'console/migration',
+            ],
         ],
     ],
     'components' => [

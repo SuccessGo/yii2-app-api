@@ -9,14 +9,14 @@ $params = array_merge(
 return [
     'id' => 'app-api',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'Api\Controller',
+    'controllerNamespace' => 'api\controller',
     'defaultRoute' => 'default',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
         'user' => [
             'class' => 'yii\web\User',
-            'identityClass' => 'Api\Model\User',
+            'identityClass' => 'api\model\User',
             'enableSession' => false,
         ],
         'log' => [
