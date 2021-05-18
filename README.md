@@ -23,17 +23,3 @@ $ php init
 
 ```
 $ php yii serve -t @api/public
-```
-
-## api tests
-
-```
-# init codeception
-$ php vendor/bin/codecept bootstrap
-
-# init api suite
-$ php vendor/bin/codecept g:suite api ApiTester
-
-# run api tests
-$ php vendor/bin/codecept run api
-```
