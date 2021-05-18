@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function actionIndex()
     {
-        return ['author' => 'Success Go'];
+        return 'default route';
     }
 }

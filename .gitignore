@@ -1,8 +1,5 @@
 # ignore composer vendor dir
 /vendor/
 
-# ignore JetBrains IDE config dir
-/.idea/
-
 # ignore yii console command
 /yii

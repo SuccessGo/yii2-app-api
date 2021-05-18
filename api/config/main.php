@@ -22,9 +22,11 @@ return [
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
-                [
+                'file' => [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
+                    'logFile' => '@api/runtime/logs/' . date('Y-m/d') . '.log',
+                    'logVars' => [],
                 ],
             ],
         ],

@@ -12,6 +12,7 @@ return [
     'bootstrap' => ['log'],
     'aliases' => [
     ],
+    'controllerNamespace' => 'console\controller',
     'controllerMap' => [
         'migrate' => [
             'class' => 'yii\console\controllers\MigrateController',
@@ -22,10 +23,13 @@ return [
     ],
     'components' => [
         'log' => [
+            'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
-                [
+                'file' => [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
+                    'logFile' => '@console/runtime/logs/' . date('Y-m/d') . '.log',
+                    'logVars' => [],
                 ],
             ],
         ],
