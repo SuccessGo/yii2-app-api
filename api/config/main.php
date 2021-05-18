@@ -25,7 +25,7 @@ return [
                 'file' => [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
-                    'logFile' => '@api/runtime/logs/' . date('Y-m/d') . '.log',
+                    'logFile' => '@runtime/logs/' . date('Y-m/d') . '.log',
                     'logVars' => [],
                 ],
             ],
