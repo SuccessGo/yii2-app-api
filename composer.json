@@ -1,12 +1,7 @@
 {
     "name": "success/yii2-app-api",
     "description": "Yii2 Api Application Template",
-    "keywords": [
-        "yii2",
-        "framework",
-        "api",
-        "project template"
-    ],
+    "keywords": ["yii2", "framework", "api", "project template"],
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -19,7 +14,7 @@
     "prefer-stable": true,
     "require": {
         "php": "7.3.* || 7.4.*",
-        "yiisoft/yii2": "2.0.42"
+        "yiisoft/yii2": "2.0.43"
     },
     "require-dev": {
     },

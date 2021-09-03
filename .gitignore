@@ -1,5 +1,7 @@
 # ignore composer vendor dir
 /vendor/
+# ignore lock file
+composer.lock
 
 # ignore yii console command
 /yii
