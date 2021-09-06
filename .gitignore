@@ -1,7 +1,8 @@
-# ignore composer vendor dir
-/vendor/
-# ignore lock file
-composer.lock
-
-# ignore yii console command
+# yii console command
 /yii
+
+# phpstorm project files
+/.idea
+
+# composer vendor dir
+/vendor
