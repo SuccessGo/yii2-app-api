@@ -17,7 +17,8 @@ return [
         'migrate' => [
             'class' => 'yii\console\controllers\MigrateController',
             'migrationPath' => [
-                'console/migration',
+                // default: ['@app/migrations']
+                '@app/migration',
             ],
         ],
     ],
