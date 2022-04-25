@@ -16,9 +16,14 @@ return [
     'controllerMap' => [
         'migrate' => [
             'class' => 'yii\console\controllers\MigrateController',
+            // cmd help: php yii migrate/create migration_name
             'migrationPath' => [
                 // default: ['@app/migrations']
                 '@app/migration',
+            ],
+            // cmd help: php yii migrate/create your\namespace\MigrationName
+            'migrationNamespaces' => [
+//                'console\migration',
             ],
         ],
     ],
